@@ -1,0 +1,103 @@
+:host {
+  display: block;
+  margin-top: 1rem;
+}
+
+mat-spinner {
+  margin: auto;
+  color: #970000;
+}
+
+mat-paginator {
+  margin-top: 1rem;
+}
+
+.info-text {
+  text-align: center;
+}
+
+.post-image {
+  width: 100%;
+}
+
+.post-image img {
+  width: 100%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.area{
+  display: block;
+  position: relative;
+}
+.side{
+  top:0;
+  right: 0;
+  width:300px;
+  position: absolute;
+}
+.content {
+  /* width: 100%; */
+  padding-right: 320px;
+}
+
+input[type=text]{
+  border-radius: 4px;
+  background: #ffffff;
+  border-color: #970000;
+}
+
+.area2{
+  display: block;
+  position: relative;
+}
+.side2{
+  top:0;
+  right: 0;
+  width:350px;
+  position: absolute;
+}
+.content2{
+  /* width: 100%; */
+  padding-right: 320px;
+}
+
+.btn-custom {
+	padding: 1px 15px 3px 2px;
+	border-radius: 50px;
+}
+
+.btn-icon {
+	padding: 8px;
+	background: #ffffff;
+}
+
+.button {
+  background-color:transparent;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer; 
+  border: 2px solid #970000;
+  margin: 0px 2px;
+  color: #970000;
+}
+
+h4 {
+  color: #000000;
+}
+
+.area3{
+  display: block;
+  position: relative;
+}
+.side3{
+  top:0;
+  right: 0;
+  width:150px;
+  position: absolute;
+}
+.content3{
+  /* width: 100%; */
+  padding-right: 320px;
+}
+
+

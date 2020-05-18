@@ -1,0 +1,69 @@
+mat-form-field,
+textarea {
+  width: 100%;
+}
+
+mat-spinner {
+  margin: auto;
+  color: #970000;
+}
+
+input[type="file"] {
+  visibility: hidden;
+}
+
+.image-preview {
+  height: 5rem;
+  margin: 1rem 0;
+}
+
+.image-preview img {
+  height: 100%;
+}
+/* ---- */
+
+.area{
+  display: block;
+  position: relative;
+}
+.side{
+  top:0;
+  right: 0;
+  width:600px;
+  position: absolute;
+}
+.content{
+  /* width: 100%; */
+  padding-right: 320px;
+}
+
+.area2{
+  display: block;
+  position: relative;
+}
+.side2{
+  top:0;
+  right: 0;
+  width:600px;
+  position: absolute;
+}
+.content2{
+  /* width: 100%; */
+  padding-right: 320px;
+}
+
+
+.area3{
+  display: block;
+  position: relative;
+}
+.side3{
+  top:0;
+  right: 0;
+  width:330px;
+  position: absolute;
+}
+.content3{
+  /* width: 100%; */
+  padding-right: 320px;
+}

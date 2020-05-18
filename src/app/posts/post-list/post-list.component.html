@@ -1,0 +1,47 @@
+<mat-spinner color="warn" *ngIf="isLoading"></mat-spinner>
+<div class="area">  
+  <div class="content">
+    <div class="area2">  
+      <div class="content2">
+        <button type="button" class="button" (click)="setSearchWord('covid19')"><b>Covid-19</b></button>
+        <button type="button" class="button" (click)="setSearchWord('business')"><b>Business</b></button>
+        <button type="button" class="button" (click)="setSearchWord('sports')"><b>Sports</b></button>
+        <button type="button" class="button" (click)="setSearchWord('tech')"><b>Tech</b></button>
+        <button type="button" class="button" (click)="setSearchWord('politics')"><b>Politics</b></button>
+        <button type="button" class="button" (click)="setSearchWord('entertainment')"><b>Entertainment</b></button>
+      </div>
+      <div class="side2">
+        <input placeholder="Search" matInput type="text" [(ngModel)]="searchword" (keydown)="onKeyDown($event)">
+        <button class="button" (click)="setSearchWord(searchword)"><i class="fa fa-search"></i></button>
+      </div>
+    </div>
+    <br>
+    Here you can see news about <b>{{searchword}}</b>
+    <br><br>
+    <mat-accordion multi="true" *ngIf="posts.length > 0 && !isLoading">
+      <mat-expansion-panel *ngFor="let post of posts">
+        <mat-expansion-panel-header>
+          <b>{{ post.title }}</b>
+        </mat-expansion-panel-header>
+        <p>{{ post.content }}</p>
+        <b>Authors: {{ post.authors }}<br>
+        Date: 2004-2005</b>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+  <div class="side">
+    <iframe src="https://open.spotify.com/embed-podcast/show/4lUqFpahx5eB6zuJLKIaJD" width="300" height="250"
+    frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    With these QRCodes you can listen to the podcast above or a portuguese option on Spotify.<br><br>
+    <div class="area3">  
+      <div class="content3">
+        <b>English:</b>
+        <img src="assets/TheWIREDUK.png" alt="Logo aqui" height="150px"><br>
+      </div>
+      <div class="side3">
+        <b>Portuguese:</b>
+        <img src="assets/sobretudo.png" alt="Logo aqui" height="150px">
+      </div>
+    </div>
+  </div>
+</div>

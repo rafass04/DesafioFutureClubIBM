@@ -24,7 +24,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/multer": "^1.4.3",
     "@types/node": "^12.12.39",
-    "bcrypt": "^4.0.1",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "bootstrap": "^3.4.1",
     "codelyzer": "^5.1.2",
